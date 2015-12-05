@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524A164E1C13A0A20013BE41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A164D1C13A0A20013BE41 /* AppDelegate.swift */; };
+		524A16501C13A0A20013BE41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A164F1C13A0A20013BE41 /* ViewController.swift */; };
+		524A16531C13A0A20013BE41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A16511C13A0A20013BE41 /* Main.storyboard */; };
+		524A16551C13A0A20013BE41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524A16541C13A0A20013BE41 /* Assets.xcassets */; };
+		524A16581C13A0A20013BE41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A16561C13A0A20013BE41 /* LaunchScreen.storyboard */; };
+		524A16631C13A0A20013BE41 /* PokerTournamentTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A16621C13A0A20013BE41 /* PokerTournamentTimerTests.swift */; };
+		524A166E1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A166D1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524A165F1C13A0A20013BE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524A16421C13A0A10013BE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524A16491C13A0A20013BE41;
+			remoteInfo = PokerTournamentTimer;
+		};
+		524A166A1C13A0A20013BE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524A16421C13A0A10013BE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524A16491C13A0A20013BE41;
+			remoteInfo = PokerTournamentTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524A164A1C13A0A20013BE41 /* PokerTournamentTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerTournamentTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A164D1C13A0A20013BE41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		524A164F1C13A0A20013BE41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		524A16521C13A0A20013BE41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524A16541C13A0A20013BE41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524A16571C13A0A20013BE41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524A16591C13A0A20013BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524A165E1C13A0A20013BE41 /* PokerTournamentTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTournamentTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A16621C13A0A20013BE41 /* PokerTournamentTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTournamentTimerTests.swift; sourceTree = "<group>"; };
+		524A16641C13A0A20013BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524A16691C13A0A20013BE41 /* PokerTournamentTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTournamentTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A166D1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTournamentTimerUITests.swift; sourceTree = "<group>"; };
+		524A166F1C13A0A20013BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524A16471C13A0A20013BE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A165B1C13A0A20013BE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A16661C13A0A20013BE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524A16411C13A0A10013BE41 = {
+			isa = PBXGroup;
+			children = (
+				524A164C1C13A0A20013BE41 /* PokerTournamentTimer */,
+				524A16611C13A0A20013BE41 /* PokerTournamentTimerTests */,
+				524A166C1C13A0A20013BE41 /* PokerTournamentTimerUITests */,
+				524A164B1C13A0A20013BE41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524A164B1C13A0A20013BE41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524A164A1C13A0A20013BE41 /* PokerTournamentTimer.app */,
+				524A165E1C13A0A20013BE41 /* PokerTournamentTimerTests.xctest */,
+				524A16691C13A0A20013BE41 /* PokerTournamentTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524A164C1C13A0A20013BE41 /* PokerTournamentTimer */ = {
+			isa = PBXGroup;
+			children = (
+				524A164D1C13A0A20013BE41 /* AppDelegate.swift */,
+				524A164F1C13A0A20013BE41 /* ViewController.swift */,
+				524A16511C13A0A20013BE41 /* Main.storyboard */,
+				524A16541C13A0A20013BE41 /* Assets.xcassets */,
+				524A16561C13A0A20013BE41 /* LaunchScreen.storyboard */,
+				524A16591C13A0A20013BE41 /* Info.plist */,
+			);
+			path = PokerTournamentTimer;
+			sourceTree = "<group>";
+		};
+		524A16611C13A0A20013BE41 /* PokerTournamentTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				524A16621C13A0A20013BE41 /* PokerTournamentTimerTests.swift */,
+				524A16641C13A0A20013BE41 /* Info.plist */,
+			);
+			path = PokerTournamentTimerTests;
+			sourceTree = "<group>";
+		};
+		524A166C1C13A0A20013BE41 /* PokerTournamentTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				524A166D1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift */,
+				524A166F1C13A0A20013BE41 /* Info.plist */,
+			);
+			path = PokerTournamentTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524A16491C13A0A20013BE41 /* PokerTournamentTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A16721C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimer" */;
+			buildPhases = (
+				524A16461C13A0A20013BE41 /* Sources */,
+				524A16471C13A0A20013BE41 /* Frameworks */,
+				524A16481C13A0A20013BE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerTournamentTimer;
+			productName = PokerTournamentTimer;
+			productReference = 524A164A1C13A0A20013BE41 /* PokerTournamentTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524A165D1C13A0A20013BE41 /* PokerTournamentTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A16751C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimerTests" */;
+			buildPhases = (
+				524A165A1C13A0A20013BE41 /* Sources */,
+				524A165B1C13A0A20013BE41 /* Frameworks */,
+				524A165C1C13A0A20013BE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524A16601C13A0A20013BE41 /* PBXTargetDependency */,
+			);
+			name = PokerTournamentTimerTests;
+			productName = PokerTournamentTimerTests;
+			productReference = 524A165E1C13A0A20013BE41 /* PokerTournamentTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524A16681C13A0A20013BE41 /* PokerTournamentTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A16781C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimerUITests" */;
+			buildPhases = (
+				524A16651C13A0A20013BE41 /* Sources */,
+				524A16661C13A0A20013BE41 /* Frameworks */,
+				524A16671C13A0A20013BE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524A166B1C13A0A20013BE41 /* PBXTargetDependency */,
+			);
+			name = PokerTournamentTimerUITests;
+			productName = PokerTournamentTimerUITests;
+			productReference = 524A16691C13A0A20013BE41 /* PokerTournamentTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524A16421C13A0A10013BE41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = meeks;
+				TargetAttributes = {
+					524A16491C13A0A20013BE41 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					524A165D1C13A0A20013BE41 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 524A16491C13A0A20013BE41;
+					};
+					524A16681C13A0A20013BE41 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 524A16491C13A0A20013BE41;
+					};
+				};
+			};
+			buildConfigurationList = 524A16451C13A0A10013BE41 /* Build configuration list for PBXProject "PokerTournamentTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524A16411C13A0A10013BE41;
+			productRefGroup = 524A164B1C13A0A20013BE41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524A16491C13A0A20013BE41 /* PokerTournamentTimer */,
+				524A165D1C13A0A20013BE41 /* PokerTournamentTimerTests */,
+				524A16681C13A0A20013BE41 /* PokerTournamentTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524A16481C13A0A20013BE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A16581C13A0A20013BE41 /* LaunchScreen.storyboard in Resources */,
+				524A16551C13A0A20013BE41 /* Assets.xcassets in Resources */,
+				524A16531C13A0A20013BE41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A165C1C13A0A20013BE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A16671C13A0A20013BE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524A16461C13A0A20013BE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A16501C13A0A20013BE41 /* ViewController.swift in Sources */,
+				524A164E1C13A0A20013BE41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A165A1C13A0A20013BE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A16631C13A0A20013BE41 /* PokerTournamentTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A16651C13A0A20013BE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A166E1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524A16601C13A0A20013BE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524A16491C13A0A20013BE41 /* PokerTournamentTimer */;
+			targetProxy = 524A165F1C13A0A20013BE41 /* PBXContainerItemProxy */;
+		};
+		524A166B1C13A0A20013BE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524A16491C13A0A20013BE41 /* PokerTournamentTimer */;
+			targetProxy = 524A166A1C13A0A20013BE41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		524A16511C13A0A20013BE41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524A16521C13A0A20013BE41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524A16561C13A0A20013BE41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524A16571C13A0A20013BE41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524A16701C13A0A20013BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524A16711C13A0A20013BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524A16731C13A0A20013BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokerTournamentTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.tanliao.PokerTournamentTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		524A16741C13A0A20013BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokerTournamentTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.tanliao.PokerTournamentTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		524A16761C13A0A20013BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokerTournamentTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.tanliao.PokerTournamentTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerTournamentTimer.app/PokerTournamentTimer";
+			};
+			name = Debug;
+		};
+		524A16771C13A0A20013BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokerTournamentTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.tanliao.PokerTournamentTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerTournamentTimer.app/PokerTournamentTimer";
+			};
+			name = Release;
+		};
+		524A16791C13A0A20013BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokerTournamentTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.tanliao.PokerTournamentTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokerTournamentTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		524A167A1C13A0A20013BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokerTournamentTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.tanliao.PokerTournamentTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokerTournamentTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524A16451C13A0A10013BE41 /* Build configuration list for PBXProject "PokerTournamentTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A16701C13A0A20013BE41 /* Debug */,
+				524A16711C13A0A20013BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524A16721C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A16731C13A0A20013BE41 /* Debug */,
+				524A16741C13A0A20013BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		524A16751C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A16761C13A0A20013BE41 /* Debug */,
+				524A16771C13A0A20013BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		524A16781C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A16791C13A0A20013BE41 /* Debug */,
+				524A167A1C13A0A20013BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524A16421C13A0A10013BE41 /* Project object */;
+}
