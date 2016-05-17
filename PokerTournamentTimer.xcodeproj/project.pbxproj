@@ -14,6 +14,8 @@
 		524A16581C13A0A20013BE41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A16561C13A0A20013BE41 /* LaunchScreen.storyboard */; };
 		524A16631C13A0A20013BE41 /* PokerTournamentTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A16621C13A0A20013BE41 /* PokerTournamentTimerTests.swift */; };
 		524A166E1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A166D1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift */; };
+		524A167C1C13BEB50013BE41 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A167B1C13BEB50013BE41 /* TimerViewController.swift */; };
+		524A16821C1552240013BE41 /* Bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 524A16811C1552240013BE41 /* Bell.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		524A16691C13A0A20013BE41 /* PokerTournamentTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTournamentTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524A166D1C13A0A20013BE41 /* PokerTournamentTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTournamentTimerUITests.swift; sourceTree = "<group>"; };
 		524A166F1C13A0A20013BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524A167B1C13BEB50013BE41 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		524A16811C1552240013BE41 /* Bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bell.mp3; path = ../../Bell.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,8 @@
 				524A16511C13A0A20013BE41 /* Main.storyboard */,
 				524A16541C13A0A20013BE41 /* Assets.xcassets */,
 				524A16561C13A0A20013BE41 /* LaunchScreen.storyboard */,
-				524A16591C13A0A20013BE41 /* Info.plist */,
+				524A167B1C13BEB50013BE41 /* TimerViewController.swift */,
+				524A16831C1558980013BE41 /* Supporting Files */,
 			);
 			path = PokerTournamentTimer;
 			sourceTree = "<group>";
@@ -123,6 +128,15 @@
 				524A166F1C13A0A20013BE41 /* Info.plist */,
 			);
 			path = PokerTournamentTimerUITests;
+			sourceTree = "<group>";
+		};
+		524A16831C1558980013BE41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				524A16811C1552240013BE41 /* Bell.mp3 */,
+				524A16591C13A0A20013BE41 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524A16581C13A0A20013BE41 /* LaunchScreen.storyboard in Resources */,
+				524A16821C1552240013BE41 /* Bell.mp3 in Resources */,
 				524A16551C13A0A20013BE41 /* Assets.xcassets in Resources */,
 				524A16531C13A0A20013BE41 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524A16501C13A0A20013BE41 /* ViewController.swift in Sources */,
+				524A167C1C13BEB50013BE41 /* TimerViewController.swift in Sources */,
 				524A164E1C13A0A20013BE41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +498,7 @@
 				524A16741C13A0A20013BE41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524A16751C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				524A16771C13A0A20013BE41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524A16781C13A0A20013BE41 /* Build configuration list for PBXNativeTarget "PokerTournamentTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				524A167A1C13A0A20013BE41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

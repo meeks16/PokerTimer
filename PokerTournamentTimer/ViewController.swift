@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var minutesPer: UITextField!
 
+    @IBOutlet weak var startingBig: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +23,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "goToTimer" {
+            let timerView = (segue.destinationViewController) as! TimerViewController
+//            timerView.setTimer()
+            timerView.time = Int(self.minutesPer.text!)!
+            timerView.bBlind = Int(self.startingBig.text!)!
+        
+        }
+    }
 
 }
 
